@@ -1,0 +1,43 @@
+<div class="slider"> 
+    <div style="position: relative; width: 100%; overflow: hidden;">
+        <div style="position: relative; left: 50%; width: 5000px; text-align: center; margin-left: -2500px;">        
+          
+            <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 1400px; height: 300px;">
+                <!-- Slides Container -->
+                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1400px; height: 300px;">
+                    <div><img u="image" src="products/slider1.png" /></div>
+                    <div><img u="image" src="products/slider2.png" /></div>
+                    <div><img u="image" src="products/slider3.png" /></div>
+                    <div><img u="image" src="products/slider4.jpg" /></div>
+                    <div><img u="image" src="products/slider5.png" /></div>
+                </div><!-- /end Slides -->
+                    
+                <!--#region Arrow Navigator Skin Begin -->
+                 <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
+                 <link href="products/style.css" rel="stylesheet" type="text/css"/>
+                 <!-- Arrow Left -->
+                 <span u="arrowleft" class="jssora02l" style="top: 123px; left: 8px;">
+                 </span>
+                 <!-- Arrow Right -->
+                 <span u="arrowright" class="jssora02r" style="top: 123px; right: 8px;">
+                 </span>
+                 <!--#endregion Arrow Navigator Skin End -->
+                 
+                 <!--#region Bullet Navigator Skin Begin -->
+                <!-- bullet navigator container -->
+                <div u="navigator" class="jssorb01" style="bottom: 16px; right: 10px;">
+                    <!-- bullet navigator item prototype -->
+                    <div u="prototype"></div>
+                </div>
+                <!--#endregion Bullet Navigator Skin End -->
+                 
+                <!-- Trigger --> 
+                <script>
+                    init_jssor_slider1("slider1_container");
+                </script> 
+                
+            </div><!-- /end Slider Container -->
+        </div>
+     </div>
+</div> <!-- /end Slider -->
+
